@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://fiddle.jshell.net/rafikissaoui/bp6m5udy/show/light/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="./jquery-1.9.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+    <style type="text/css">
+     </style>
+
+  <title>My Chart</title>
+
+<script type="text/javascript">//<![CDATA[
+
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Youtube Subscribers and Views'
+        },
+        
+        xAxis: {
+            categories: ['Aisha Shah', 'AlexandrasGirlyTalk', 'Alexandrea Garza', 'AlishaMarieVlogs', 'Amanda Steele','Ambre Renee','Andre "Black Nerd"','AndreasChoice','annaleeandjesse','Annalia Carole','Arlyne Sanjines','Aspyn Ovard','BeautyByGabbie','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee','Ambre Renee'],
+            title: {
+                text: null
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'million',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        tooltip: {
+            valueSuffix: ' million'
+        },
+        plotOptions: {
+            bar: {
+                dataLabels: {
+                    enabled: true
+                }
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            x: -40,
+            y: 80,
+            floating: true,
+            borderWidth: 1,
+            backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+            shadow: true
+        },
+        credits: {
+            enabled: false
+        }, 
+  
+
+
+
+        series: [{
+            name: 'Views',
+            data: [ 1.806,102.008 ,17.409 , 72.663, 138.746, 10.403, 38.754,152.573,  7.650,  1.643,  5.813, 104.979],
+            color:'#f09e3a'
+        }, {
+            name: 'Subscribers',
+            data: [5, 0.05, 15, 2.5, 7.5,8.245,8.99,5, 0.05, 15, 2.5,7.5],
+            color:'#272425'
+        }]
+    });
+});
+//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <script src="./highcharts.js"></script>
+<script src="./exporting.js"></script>
+
+
+
+  
+
+
+<div id="container" style="min-width: 310px; max-width: 1000px; height: 800px; margin: 0 auto"></div>
+
+
+</body></html>
